@@ -1,0 +1,59 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code cache
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.aps
+
+# Rider
+*.sln.iml
+
+# Test results
+[Tt]est[Rr]esult*/
+TestResult.xml
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+
+# Publish output
+publish/
+[Pa]ublish/
+*.pubxml
+!**/PublishProfiles/*.pubxml
+*.publishproj
+
+# Dotnet publish/profiles artifacts
+artifacts/
+
+# Application secrets / local config
+appsettings.*.json
+!appsettings.Development.json
+secrets.json
+*.env
+
+# SQL Server local artifacts
+*.mdf
+*.ldf
+*.ndf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (tooling aux, if any)
+node_modules/
