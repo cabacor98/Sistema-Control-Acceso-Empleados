@@ -133,6 +133,12 @@ Código duplicado de credencial (minúsculas se normalizan a mayúsculas):
   "detail": "El código de credencial 'CRED1077' ya está asignado." }
 ```
 
+Desactivación de empleado (`DELETE /api/empleados/{id}`): baja lógica, el registro se conserva con estado cambiado.
+
+```json
+{ "estado": "Inactivo", "credencialesVigentes": 0 }
+```
+
 ## Datos sembrados (demo)
 
 - **María Fernanda Ortega Ruiz** — `CRED1077` activa (email `m.ortega@logistica-demo.com`).
